@@ -1,0 +1,97 @@
+/** Add css rules here for your application. */
+
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+@font-face {
+    font-family: "CYCR";
+    src: url(images/sevendoors/menu/CYCR.TTF) format("truetype");
+}
+
+.topscoreLabel {
+	font: normal 20px "CYCR";
+	font-family: "CYCR";
+	color: #2D1402;
+}
+
+.rightText {
+	text-align: right;
+}
+
+.centerText {
+	text-align: center;
+}
+
+.topscoreVerticalPanel {
+    margin-left: 90px;
+    margin-top: 75px;
+}
+
+.rulesVerticalPanel {
+    margin-left: 468px;
+    margin-top: 517px;
+}
+
+.menuMainPanel {
+    margin-left: 270px;
+    margin-top: 300px;
+}
+
+.topscorePanel {
+	width: 603px;
+	height: 601px;
+	background-image: url(images/sevendoors/menu/top-score.png);
+    background-repeat: no-repeat;   
+    font-family: "CYCR";
+}
+
+.popupPanel {
+	width: 603px;
+	height: 601px;
+}
+
+.rulesPanel {
+	width: 603px;
+	height: 601px;
+	background-image: url(images/sevendoors/menu/help_screen.png);
+    background-repeat: no-repeat;   
+}
+
+.menuPanel {
+	width: 603px;
+	height: 601px;
+	background-image: url(images/sevendoors/menu/menu_zone.png);
+    background-repeat: no-repeat;   
+}
+
+.backButton {
+	margin-left:42%;
+	border: 0px;
+	outline-color: transparent;
+	outline-width: 0px;
+}
+
+.button-center {
+	text-align: center;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+
+<script src="http://vkontakte.ru/js/api/xd_connection.js?2" type="text/javascript"></script>
+<link rel="stylesheet" href="http://vkontakte.ru/css/rustyle.css?72" type="text/css"/>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="SevenDoors.css">
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title> 7 gates </title>
+    
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" language="javascript" src="sevendoors/sevendoors.nocache.js"></script>
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body style="background-image: url(images/sevendoors/bg-01.gif);">
+  
+	<div style="padding-top: 5%; padding-left: 5%">
+	    <div id="bckgr2" style="width:688px;height:650px;background-image: url(images/sevendoors/id-zone_back-01a.png); background-repeat: no-repeat;" >
+			<div id="game" style="padding-top: 13px; padding-left: 33px;"></div>
+    	</div>
+	</div>
+    
+
+
+	<!-- OPTIONAL: include this if you want history support -->
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+    
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+    
+     <!-- <script type="text/javascript"> 
+    	function setUserPhoto() {
+ 			VK.loadParams(document.location.href);
+ 			var viewer_id = VK.params.viewer_id;
+ 			VK.api("users.get", {uid: viewer_id, fields: 'photo'}, function(data){ 
+ 				if(data.response){ 
+ 					avatar.src = data.response[0].photo; 
+ 			 	}
+ 			 }); 
+ 		}
+    	
+    	function inviteFriends(){
+    		VK.callMethod("showInviteBox");
+    	}
+    	
+ 		VK.init(function() { 
+ 			setUserPhoto();
+ 		});
+ 	</script> 
+
+	<img id="avatar" src="" alt="some_text"/>
+
+	<input type="button" name="invitefriends" value="invite friends" onclick="javascript:inviteFriends()">
+ -->
+ 
+ </body>
+ 
+ 
+</html>

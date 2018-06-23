@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<bonuses>
+	<bonus name="box">
+		<score from = "0" to = "3" probab = "1"/>
+		<score from = "4" to = "7" probab = "2"/>
+		<score from = "8" to = "10"  probab = "5"/>		
+		<score from = "11"  probab = "20"/>				
+	</bonus> 
+
+	<bonus name="jungle"  sincelevel = "2">
+		<score from = "0" to = "3" probab = "30"/>
+		<score from = "4" to = "6" probab = "10"/>		
+		<score from = "7" probab = "0"/>				
+	</bonus>
+	
+	<bonus name="liana" sincelevel = "3">
+		<score from = "0" to = "3" probab = "10"/>
+		<score from = "4" to = "6" probab = "7"/>		
+		<score from = "7" probab = "2"/>
+	</bonus>
+
+	<bonus name="light" sincelevel = "3">	
+		<score from = "0" to = "3" probab = "0"/>
+		<score from = "4" probab = "5"/>
+	</bonus>
+	
+	<bonus name="frog" sincelevel = "4">	
+		<score from = "0" to = "3" probab = "10"/>
+		<score from = "4" probab = "5"/>
+	</bonus>
+	
+	<bonus name="snake" sincelevel = "4">
+		<score from = "0" to = "3" probab = "0"/>
+		<score from = "4" probab = "3"/>
+	</bonus>
+
+	<bonus name="forest" sincelevel = "5">	
+		<score from = "0" to = "3" probab = "2"/>
+		<score from = "4" to = "6" probab = "1"/>
+		<score from = "7" probab = "0"/>
+	</bonus>
+
+	<bonus name="bonus" sincelevel = "6">	
+		<score from = "0" to = "4" probab = "5"/>
+		<score from = "5" probab = "15"/>
+	</bonus>
+
+	<bonus name="waterfall" sincelevel = "6">
+		<score from = "0" to = "3" probab = "1"/>
+		<score from = "4" probab = "0"/>
+	</bonus>
+		
+</bonuses>	

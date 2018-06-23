@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alphabet>
+
+<letter name="а" quantity="8" point="1" />
+
+<letter name="б" quantity="2" point="3" />
+
+<letter name="в" quantity="4" point="1" />
+
+<letter name="г" quantity="2" point="3" />
+
+<letter name="д" quantity="4" point="2" />
+
+<letter name="е" quantity="9" point="1" />
+
+<letter name="ж" quantity="1" point="5" />
+
+<letter name="з" quantity="2" point="5" />
+
+<letter name="и" quantity="5" point="1" />
+
+<letter name="й" quantity="1" point="4" />
+
+<letter name="к" quantity="4" point="2" />
+
+<letter name="л" quantity="4" point="2" />
+
+<letter name="м" quantity="3" point="2" />
+
+<letter name="н" quantity="5" point="1" />
+
+<letter name="о" quantity="10" point="1" />
+
+<letter name="п" quantity="4" point="2" />
+
+<letter name="р" quantity="5" point="1" />
+
+<letter name="с" quantity="5" point="1" />
+
+<letter name="т" quantity="5" point="1" />
+
+<letter name="у" quantity="4" point="2" />
+
+<letter name="ф" quantity="1" point="10" />
+
+<letter name="х" quantity="1" point="5" />
+
+<letter name="ц" quantity="1" point="5" />
+
+<letter name="ч" quantity="1" point="5" />
+
+<letter name="ш" quantity="1" point="8" />
+
+<letter name="щ" quantity="1" point="10" />
+
+<letter name="ъ" quantity="1" point="10" />
+
+<letter name="ы" quantity="2" point="4" />
+
+<letter name="ь" quantity="2" point="3" />
+
+<letter name="э" quantity="1" point="8" />
+
+<letter name="ю" quantity="1" point="8" />
+
+<letter name="я" quantity="2" point="3" />
+
+<!-- <letter name="*" quantity="2" point="0" /> -->
+
+</alphabet>
